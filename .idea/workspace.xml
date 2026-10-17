@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5b6d76d4-3e03-4489-a7d4-25acde839f0e" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/backend/3_confusion_matrix/dt_cm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/3_confusion_matrix/dt_cm_test.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/3_confusion_matrix/lgbm_cm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/3_confusion_matrix/lgbm_cm_test.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/3_confusion_matrix/rf_cm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/3_confusion_matrix/rf_cm_test.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/TabNet_confusion_matrix/TabNet_test_CM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/TabNet_confusion_matrix/TabNet_validation_CM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/TabNet_detect.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/TabNet_detect_single_url.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/TabNet_detect_validation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/TabNet_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/TabNet_train_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/TabNet_tune_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/TabNet_tune_modelplus.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bad_urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/badword_cloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/badword_cloud_frequency.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/classifier_model/dt_best.model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/classifier_model/lgbm_best.model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/classifier_model/rf_best.model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/classifier_model/tabnet_trained.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/data/World_Top_500.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/data/bad_good_data/bad_urls.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/data/bad_good_data/bad_urls_features.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/data/bad_good_data/good_urls.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/data/bad_good_data/good_urls_features.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/data/bad_good_data/good_urls_new.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/data/bad_urls.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/data/badwords.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/data/data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/data/popular_web.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/data/splited_data/Test.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/data/splited_data/Test_feature.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/data/splited_data/Test_features.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/data/splited_data/Training.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/data/splited_data/Training_feature.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/data/splited_data/Training_features.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/data/splited_data/Validation.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/data/splited_data/Validation_feature.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/data/splited_data/Validation_features.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/data/splited_data/all.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/data/splited_data/test_pt_content.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/data/test_data/fishtank.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/data_split.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/data_split_bad_good.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/detect_csv_url.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/detect_single_muti.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/detect_single_url.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/detect_validation_dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/dt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/eval_indicators/decode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/eval_indicators/epoch_test_acc.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/eval_indicators/epoch_test_auc.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/eval_indicators/epoch_test_confmat.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/eval_indicators/epoch_test_f1.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/eval_indicators/epoch_test_loss.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/eval_indicators/epoch_test_precision.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/eval_indicators/epoch_test_recall.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/eval_indicators/epoch_train_acc.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/eval_indicators/epoch_train_auc.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/eval_indicators/epoch_train_confmat.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/eval_indicators/epoch_train_f1.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/eval_indicators/epoch_train_loss.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/eval_indicators/epoch_train_precision.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/eval_indicators/epoch_train_recall.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/eval_indicators/epoch_validation_acc.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/eval_indicators/epoch_validation_auc.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/eval_indicators/epoch_validation_confmat.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/eval_indicators/epoch_validation_f1.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/eval_indicators/epoch_validation_loss.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/eval_indicators/epoch_validation_precision.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/eval_indicators/epoch_validation_recall.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/feature_extraction.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/get_popular.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/lgbm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/look_pt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/new_model/dt_best.model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/new_model/lgbm_best.model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/new_model/rf_best.model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/new_model/tabnet_trained.model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/new_model/tabnet_trained.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/new_model/tabnet_trainedplus.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/optuna/optimization_history1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/optuna/optimization_pareto_front1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/plot_curve.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/popular_cloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/rf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/temp_single_url.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/test_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/基于机器学习的恶意URL检测方法研究.pdf" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/backend" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2xUpKA9XBmaT00ciZweRMSv1a3F" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python 测试.Python 测试 (test_pt_content.py 内).executor": "Run",
+    "Python.TabNet_detect.executor": "Run",
+    "Python.TabNet_detect_single_url.executor": "Run",
+    "Python.TabNet_detect_validation.executor": "Run",
+    "Python.TabNet_model.executor": "Run",
+    "Python.TabNet_train_model.executor": "Run",
+    "Python.TabNet_tune_modelplus.executor": "Run",
+    "Python.decode.executor": "Run",
+    "Python.detect_csv_url.executor": "Run",
+    "Python.detect_single_url.executor": "Run",
+    "Python.dt.executor": "Run",
+    "Python.feature_extraction.executor": "Run",
+    "Python.lgbm.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.model.executor": "Run",
+    "Python.rf.executor": "Run",
+    "Python.tensor_frame.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "G:/Downloads/URL",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  }
+}]]></component>
+  <component name="RunManager" selected="Python.detect_single_url">
+    <configuration name="TabNet_detect" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="URL" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backend" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backend/TabNet_detect.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TabNet_detect_single_url" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="URL" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backend" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backend/TabNet_detect_single_url.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TabNet_model" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="URL" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backend" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backend/TabNet_model.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="detect_single_url" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="URL" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backend" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backend/detect_single_url.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tensor_frame" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="URL" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../../python/anaconda3/Lib/site-packages/torch_frame/data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../../python/anaconda3/Lib/site-packages/torch_frame/data/tensor_frame.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.detect_single_url" />
+        <item itemvalue="Python.TabNet_detect" />
+        <item itemvalue="Python.tensor_frame" />
+        <item itemvalue="Python.TabNet_model" />
+        <item itemvalue="Python.TabNet_detect_single_url" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-0509580d9d50-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.14494.241" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="5b6d76d4-3e03-4489-a7d4-25acde839f0e" name="更改" comment="" />
+      <created>1748002440381</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1748002440381</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
